@@ -17,25 +17,41 @@ border-radius: 10px;
 padding: 15px;
 width: 350px;
 margin: auto;
-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.452);
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.568);
 }
 
 div#foto{
     text-align: center;
-    
-    width: 350px;
+     width: 350px;
 }
 div#msg{
-    font-size: 0.8em;
+    color: red;
+    font-size: 0.9em;
+    padding: 5px;
     width: 350px;
     text-align: center;
+}
+
+img#imagem{
+    width: 342px;
+    border: 3px solid black;
 }
 
 footer{
+    background-color: black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+    width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    height: 25px;
     color: white;
     text-align: center;
     font-style: italic;
+}
 
-
+a{
+    color: white;
+    text-decoration: none;
+   
 }
 
