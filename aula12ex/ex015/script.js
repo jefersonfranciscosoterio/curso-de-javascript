@@ -13,19 +13,19 @@ function verificar(){
     img.setAttribute('id', 'foto')
     if (fsex[0].checked){
         gênero = 'Homem'
-        if (idade >= 0 && idade < 10){
+        if (idade >= 0 && idade <= 13){
         img.setAttribute('src', 'homem-crianca.png')
-        }else if (idade > 10 && idade < 60){
+        }else if (idade > 10 && idade <= 59){
         img.setAttribute('src', 'homem-jovem.png')
-        }else if (idade > 60)
+        }else if (idade >= 60)
         img.setAttribute('src', 'homem-idoso.png')
     }else if (fsex[1].checked){
         gênero = 'Mulher'
-        if(idade >= 0 && idade < 10){
+        if(idade >= 0 && idade < 13){
         img.setAttribute('src', 'mulher-crianca.png')
-        }else if (idade > 10){
+        }else if (idade > 10 && idade <= 59){
         img.setAttribute('src', 'mulher-jovem.png')
-        }else if (idade > 60)
+        }else if (idade >= 60)
         img.setAttribute('src', 'mulher-idosa.png')
     
 }
