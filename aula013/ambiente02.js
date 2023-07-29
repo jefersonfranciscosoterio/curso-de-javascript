@@ -1,6 +1,6 @@
 var c = 1
 
 do{
-    console.log('tudo bem?')
-}while(c <= 10)
+    console.log('oi')
+}while(c <= 6)
 c++
