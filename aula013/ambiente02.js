@@ -1,6 +1,6 @@
 var c = 1
 
 do{
-    console.log('oi')
+    console.log(`passo ${c}`)
+    c++
 }while(c <= 6)
-c++
