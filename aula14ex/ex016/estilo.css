@@ -1,17 +1,18 @@
 @charset "UTF8";
 
 body {
-
+font-family: Arial, Helvetica, sans-serif;
+background-color: gray;
 }
 
 header {
-
+background-color: black;
 }
 
 section {
-
+background-color: blue;
 }
 
 footer {
-    
+background-color: black;
 }
