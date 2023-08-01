@@ -20,6 +20,11 @@ height: 348px;
 margin: auto;
 box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
 }
+div#res{
+    width: 170px;
+    height: 175px;
+    background-color: aqua;
+}
 
 footer{
     color: white;
