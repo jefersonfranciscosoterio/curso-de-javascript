@@ -11,7 +11,7 @@ function isNumero(n) {
     }
 }
 
-function inLista(n, 1) {
+function inLista(n, l) {
     if (l.indexof(Number(n)) != -1) {
         return true
     } else {
@@ -21,7 +21,7 @@ function inLista(n, 1) {
 
 function adicionar() {
     if (isNumero(num.value) && !inLista(num.value, valores)) {
-        window.alert('Tudo ok')
+        window.alert('todo ok')
     } else {
         window.alert('Valor inválido ou já encontrado na lista.')
     }
